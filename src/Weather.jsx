@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { useState, useRef } from "react";
-import ReactDOM from "react-dom";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCloudSun } from "@fortawesome/free-solid-svg-icons";
+
 import { faCloud } from "@fortawesome/free-solid-svg-icons";
 import { faSun } from "@fortawesome/free-solid-svg-icons";
 import { faTornado } from "@fortawesome/free-solid-svg-icons";

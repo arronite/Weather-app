@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Weather from "./Weather";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div id="main-box">
+        <div id="header">
+          <div id="logo">
+            <img
+              id="owl"
+              src="https://openweathermap.org/themes/openweathermap/assets/img/mobile_app/android-app-top-banner.png"
+            />
+          </div>
+          <div id="title">
+            <span id="logoName">Open Weather</span>
+          </div>
+        </div>
+        <Weather />
+      </div>
     </div>
   );
-}
+};
 
 export default App;
